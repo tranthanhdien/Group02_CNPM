@@ -1,4 +1,4 @@
-package stackjava.com.accessgoogle.common;
+
 
 public class GooglePojo {
 
