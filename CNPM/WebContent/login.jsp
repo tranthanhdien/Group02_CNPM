@@ -34,10 +34,12 @@
 					<div class="login-top">
 						<p>Login with social</p>
 						<ul>
+							// đăng nhập Facebook ở đây
 							<li><a class="face"
 								href="https://www.facebook.com/dialog/oauth?client_id=2158322271124466
 &redirect_uri=https://localhost:8080/CNPM/LoginFacebook"><span
 									class="twit"> </span>Login with Facebook</a></li>
+							// đăng nhập Google ở đây
 							<li><a class="twit"
 								href="https://accounts.google.com/o/oauth2/auth?scope=email&redirect_uri=http://localhost:8080/CNPM/LoginGoogle&response_type=code
     &client_id=1060948132726-eh3lib9ad78brmcfn11avd49b28r6nv6.apps.googleusercontent.com&approval_prompt=force"><span
@@ -69,7 +71,7 @@
 	<div class="footer">
 		<p>
 			&copy 2019 Flat Login Box. All rights reserved | Design by <a
-				href="#">Tran Thanh Dien</a>
+				href="#">Anh chang dep trai</a>
 		</p>
 	</div>
 
