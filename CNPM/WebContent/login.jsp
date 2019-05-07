@@ -27,7 +27,7 @@
 	<!---main--->
 	<div class="main">
 		<!-- 4. Gửi thông tin đăng nhập -->
-		<form action="LoginController" method="post">
+		<form action="LoginController?action=account" method="post">
 			<div class="main-section">
 				<div class="login-section">
 					<h2>Login</h2>

@@ -7,11 +7,6 @@
 <title>Index</title>
 </head>
 <body>
-	<%
-		String id = request.getAttribute("id").toString();
-		String name = request.getAttribute("name").toString();
-		out.print("Id: " + id);
-		out.print("<br/>Name: " + name);
-	%>
+	<a href="login.jsp">Login</a>
 </body>
 </html>

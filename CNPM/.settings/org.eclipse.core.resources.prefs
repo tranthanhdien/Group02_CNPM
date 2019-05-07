@@ -1,4 +1,4 @@
 eclipse.preferences.version=1
-encoding//WebContent/loginUI.jsp=UTF-8
-encoding//src/model/DatabaseConnection.java=UTF-8
+encoding//WebContent/login.jsp=UTF-8
+encoding//src/model_LoginAccount/DatabaseConnection.java=UTF-8
 encoding/<project>=UTF-8
