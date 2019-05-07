@@ -1,0 +1,285 @@
+/*--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+/* reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/* start editing from here */
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
+/*end reset*/
+body{
+	font-family: 'Open Sans', sans-serif;
+	background: #00b7c9;
+}
+.header {
+    text-align: center;
+    margin-top: 4em;
+}
+.header h1 {
+    font-size: 3.5em;
+    color: #fff;
+    font-weight: 400;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.main-section {
+    width: 25%;
+    margin: 2em auto 0;
+	text-align: center;
+}
+.login-section {
+    background: #fff;
+}
+.login-section h2 {
+    padding: .6em 0;
+    background: #f99104;
+    font-size: 1.5em;
+    color: #fff;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.login-top p {
+    font-size: .85em;
+    color: #1d1d1b;
+	padding-bottom: .5em;
+}
+.login-top {
+    padding: 1em 0;
+	border-bottom: 1px solid #f99104;
+}
+.login-top ul li {
+    padding: .8em 0;
+}
+.login-top ul li a.face {
+	background:#3b5998;
+	padding: 0.8em 1.7em 0.9em 1em;
+}
+.login-top ul li a.face:hover {
+  background: #244384;
+}
+.login-top ul li a.twit {
+	background:#ff0000;
+	padding: 0.8em 2.8em 0.9em 1em;
+}
+.login-top ul li a.twit:hover {
+	background:#ff5555;
+}
+.login-top ul li a span.face {
+  background: url(../images/face.png) no-repeat 0px 0px;
+  width:32px;
+  height:32px;
+  display:inline-block;
+  vertical-align: middle;
+  margin: 0em 1.5em 0em 0em;
+}
+.login-top ul li a span.twit {
+  background: url(../images/twit.png)no-repeat 0px 0px;
+  width:32px;
+  height:32px;
+  display:inline-block;
+  vertical-align: middle;
+  margin: 0em 1.5em 0em 0em;
+}
+.login-top ul li a {
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #fff;
+}
+.login-middle input[type="text"] {
+    width: 50%;
+    padding: .8em 1em;
+    outline: none;
+    margin: 1em 0;
+	border-radius: 4px;
+    border: 1px solid#f99104;
+    outline: none;
+    color: #555;
+}
+.login-middle input[type="password"] {
+    width: 50%;
+    padding: .8em 1em;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid#f99104;
+    outline: none;
+    color: #555;
+}
+.login-middle {
+    padding: 1em 0;
+  }
+.login-middle p {
+    font-size: .85em;
+    color: #1d1d1b;
+    padding-bottom: .5em;
+}
+.login-bottom {
+    padding: 2em 1em;
+}
+.login-left {
+    float: left;
+}
+.login-right {
+    float: right;
+}
+.login-bottom {
+    padding: 1em 2em 4em;
+    border-top: 1px solid #f99104;
+}
+.login-left p {
+    font-size: .8em;
+    color: #1d1d1b;
+    line-height: 1.8em;
+}
+.login-left a {
+    font-size: 1em;
+    color: #f99104;
+}
+.login-right input[type="submit"] {
+    padding: .5em 1em;
+    background: #f99104;
+    outline: none;
+    border: none;
+    font-size: 1em;
+	display: block;
+    margin-top: .5em;
+	cursor: pointer;
+	color:#fff;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+.login-right input[type="submit"]:hover {
+    background: #00B7C9;
+}
+::-web-input-placeholder{
+	font-size:.95em;
+}
+.footer {
+    text-align: center;
+	padding:2.4em 0;
+}
+.footer p {
+    font-size: .9em;
+    color: #fff;
+    margin: 0px;
+}
+.footer p a {
+    color: #fff;
+}
+.footer p a:hover {
+    color: #f99104;
+}
+/**responsive*/
+@media (max-width:1440px){
+}
+@media (max-width:1366px){
+.login-middle input[type="text"] {
+    width: 53%;
+}
+.login-middle input[type="password"] {
+    width: 53%;
+}
+}
+@media (max-width: 1280px){
+.login-middle input[type="text"] {
+    width: 57%;
+}
+.login-middle input[type="password"] {
+    width: 57%;
+}
+}
+@media (max-width: 1080px){
+.main-section {
+    width: 35%;
+}
+}
+@media (max-width: 991px){
+.header h1 {
+    font-size: 3em;
+}
+}
+@media (max-width: 800px){
+.main-section {
+    width: 40%;
+}
+}
+@media (max-width: 768px){
+.main-section {
+    width: 45%;
+}
+}
+@media (max-width: 648px){
+.header {
+    margin-top: 3em;
+}
+.main-section {
+    width: 51%;
+}
+}
+@media (max-width: 480px){
+.header h1 {
+    font-size: 2.8em;
+}
+.main-section {
+    width: 65%;
+}
+.login-section h2 {
+    font-size: 1.3em;
+}
+}
+@media (max-width: 414px){
+.main-section {
+    width: 78%;
+}
+}
+@media (max-width: 375px){
+.main-section {
+    width: 85%;
+}
+}
+@media (max-width: 320px){
+.main-section {
+    width: 90%;
+}
+.header h1 {
+    font-size: 2.7em;
+}
+.header {
+    margin-top: 2em;
+}
+.login-middle input[type="text"] {
+    width: 70%;
+}
+.login-middle input[type="password"] {
+    width: 70%;
+}
+.login-bottom {
+    padding: 1em 1em 4em;
+}
+.footer {
+    padding: 2em 0;
+}
+.footer p {
+    font-size: .85em;
+}
+}
