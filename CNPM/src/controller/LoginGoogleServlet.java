@@ -1,4 +1,4 @@
-
+package controller;
 
 import java.io.IOException;
 
@@ -9,8 +9,15 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import stackjava.com.accessgoogle.common.GooglePojo;
-import stackjava.com.accessgoogle.common.GoogleUtils;
+import model_LoginByGoogle.GooglePojo;
+import model_LoginByGoogle.GoogleUtils;
+
+/* Class này sẽ nhận đoạn mã trả về từ google
+ * đổi mã đó thành access-token 
+ * rồi dùng access-token để truy cập các thông tin trong tài khoản google như email, name, id…
+ * 
+ */
+
 
 @WebServlet("/login-google")
 public class LoginGoogleServlet extends HttpServlet {
