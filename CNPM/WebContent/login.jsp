@@ -27,7 +27,6 @@
 	<!---header--->
 	<!---main--->
 	<div class="main">
-		<!-- 4. Gửi thông tin đăng nhập -->
 		<form action="LoginController?action=account" method="post">
 			<div class="main-section">
 				<div class="login-section">
@@ -52,7 +51,9 @@
 						</ul>
 					</div>
 					<div class="login-middle">
+						<!-- 3. Người dùng nhập userName, password -->
 						<p>Log in with your name and password</p>
+						<!-- 7.2 Trả về thông tin thất bại -->
 						<p style="color: red; text-align: center;"><%=request.getAttribute("message")%>
 						</p>
 
@@ -65,6 +66,7 @@
 							<p>Forgot your password?</p>
 							<a href="#">Sign Up Now!</a>
 						</div>
+						<!-- 4. Gửi thông tin đăng nhập(Username, password) lên Server -->
 						<div class="login-right">
 							<input type="submit" value="Login">
 						</div>
