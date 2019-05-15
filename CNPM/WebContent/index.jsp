@@ -7,6 +7,10 @@
 <title>Index</title>
 </head>
 <body>
-	<a href="login.jsp">Login</a>
+	<!-- 1. Người dùng gửi yêu cầu đăng nhập -->
+	<div style="margin-left: 45%">
+		<br> <a href="login.jsp" class="btn btn-primary btn-lg"
+			role="button"> <span class="glyphicon glyphicon-log-in"></span>&nbsp;Login</a>
+	</div>
 </body>
 </html>
