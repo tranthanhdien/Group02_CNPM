@@ -18,6 +18,7 @@
 <link
 	href='//fonts.googleapis.com/css?family=Josefin+Sans:400,100,100italic,300,300italic,400italic,600,600italic,700,700italic'
 	rel='stylesheet' type='text/css'>
+	<!-- 2. Hệ thống trả về trang login cho người dùng -->
 <body>
 	<!---header--->
 	<div class="header">
