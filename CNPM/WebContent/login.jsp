@@ -27,23 +27,17 @@
 	<!---header--->
 	<!---main--->
 	<div class="main">
-		<form action="LoginController?action=account" method="post">
+		<form action="LoginController" method="post">
 			<div class="main-section">
 				<div class="login-section">
 					<h2>Login</h2>
 					<div class="login-top">
 						<p>Login with social</p>
 						<ul>
-							<!-- Dang nhap FB -->
-
-
 							<li><a class="face"
-								href="http://graph.facebook.com/oauth/authorize?client_id=401733703942139&scope=public_profile,email,user_likes&redirect_uri=http://localhost:8080/NMCNPM_NĐCSong_2019/LoginFB.html"><span
+								href="https://www.facebook.com/dialog/oauth?client_id=2158322271124466
+&redirect_uri=https://localhost:8080/CNPM/LoginFacebook"><span
 									class="twit"> </span>Login with Facebook</a></li>
-
-
-
-							<!-- Dang Nhap GG -->
 							<li><a class="twit"
 								href="https://accounts.google.com/o/oauth2/auth?scope=email&redirect_uri=http://localhost:8080/CNPM/LoginGoogle&response_type=code
     &client_id=1060948132726-eh3lib9ad78brmcfn11avd49b28r6nv6.apps.googleusercontent.com&approval_prompt=force"><span
@@ -51,10 +45,11 @@
 						</ul>
 					</div>
 					<div class="login-middle">
-						<!-- 3. Người dùng nhập userName, password -->
+					<!-- 3. Người dùng nhập userName, password -->
 						<p>Log in with your name and password</p>
-						<!-- 7.2 Trả về thông tin thất bại -->
-						<p style="color: red; text-align: center;"><%=request.getAttribute("message")%>
+						<!-- 9. Trả về thông tin thất bại -->
+						<p style="color: red; text-align: center;">
+						<%=request.getAttribute("message") %>
 						</p>
 
 						<input type="text" id="userName" name="userName"
@@ -78,7 +73,7 @@
 	<div class="footer">
 		<p>
 			&copy 2019 Flat Login Box. All rights reserved | Design by <a
-				href="#">Anh chang dep trai</a>
+				href="#">Tran Thanh Dien</a>
 		</p>
 	</div>
 
