@@ -33,7 +33,7 @@ public class LoginDAO {
 		return LoginDAO.listUsers;
 	}
 
-	// 5. checkInfo(userName, pass)
+	// 7. checkInfo(userName, pass)
 	public static boolean checkInfo(String userName, String passWord) {
 		Connection con = DatabaseConnection.getConnection();
 		String sql = "SELECT * FROM Users WHERE userName='" + userName + "' and passWord='" + passWord + "'";
