@@ -35,8 +35,7 @@
 						<p>Login with social</p>
 						<ul>
 							<li><a class="face"
-								href="https://www.facebook.com/dialog/oauth?client_id=2158322271124466
-&redirect_uri=https://localhost:8080/CNPM/LoginFacebook"><span
+								href="https://www.facebook.com/dialog/oauth?client_id=401733703942139&redirect_uri=https://ltweb.azurewebsites.net/login-facebook"><span
 									class="twit"> </span>Login with Facebook</a></li>
 							<li><a class="twit"
 								href="https://accounts.google.com/o/oauth2/auth?scope=email&redirect_uri=http://localhost:8080/CNPM/LoginGoogle&response_type=code
