@@ -1,7 +1,8 @@
-﻿package model_LoginByGoogle;
+package model_LoginByGoogle;
 
- //Class gồm các thuộc tính tương ứng với các thông tin lấy trong tài khoản google trả về
- 
+/*
+ * Class gồm các thuộc tính tương ứng với các thông tin trong tài khoản google trả về
+ */
 
 public class GooglePojo {
 
