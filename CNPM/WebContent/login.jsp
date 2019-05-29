@@ -38,8 +38,7 @@
 								href="https://www.facebook.com/dialog/oauth?client_id=401733703942139&redirect_uri=https://ltweb.azurewebsites.net/login-facebook"><span
 									class="twit"> </span>Login with Facebook</a></li>
 							<li><a class="twit"
-								href="https://accounts.google.com/o/oauth2/auth?scope=email&redirect_uri=http://localhost:8080/CNPM/LoginGoogle&response_type=code
-    &client_id=1060948132726-eh3lib9ad78brmcfn11avd49b28r6nv6.apps.googleusercontent.com&approval_prompt=force"><span
+								href="https://accounts.google.com/signin/oauth/oauthchooseaccount?client_id=745032533472-rmlgld6ab5t3u2vrv03vuo6d3m3f6s2e.apps.googleusercontent.com&as=8rFs9AeZ8WM6BXOuNqFSYw&destination=http%3A%2F%2Flocalhost%3A8080&approval_state=!ChR1QXVmLVhnYm1sczR1REFadXNDUhIfczlleFZPUnpGcndaOEhuU1JuY2dubXEtRkhaSXNCWQ%E2%88%99AJDr988AAAAAXPALtbbfiG81E4PPVvStSwXWBGlwFvRc&oauthgdpr=1&oauthriskyscope=1&xsrfsig=ChkAeAh8T7bPV_ZepHhyowMmL7Df-hKi0T98Eg5hcHByb3ZhbF9zdGF0ZRILZGVzdGluYXRpb24SBXNvYWN1Eg9vYXV0aHJpc2t5c2NvcGU&flowName=GeneralOAuthFlow"><span
 									class="twit"> </span>Login with Google</a></li>
 						</ul>
 					</div>
