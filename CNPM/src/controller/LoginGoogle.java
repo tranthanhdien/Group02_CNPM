@@ -20,13 +20,14 @@ import model_LoginByGoogle.GoogleUtils;
 
 
 @WebServlet("/login-google")
-public class LoginGoogleServlet extends HttpServlet {
+public class LoginGoogle extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
-	public LoginGoogleServlet() {
+	public LoginGoogle() {
 		super();
 	}
-
+// 7.Nhận đoạn mã trả về từ google
+//	8.truy cập các thông tin trong tài khoản google như email, name, id
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		String code = request.getParameter("code");
