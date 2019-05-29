@@ -1,4 +1,4 @@
-package model_LoginByGoogle;
+﻿package model_LoginByGoogle;
 
 import java.io.IOException;
 
@@ -25,7 +25,7 @@ public class GoogleUtils {
 		String accessToken = jobj.get("access_token").toString().replaceAll("\"", "");
 		return accessToken;
 	}
-// 8.lấy thông tin trong tài khoản google
+	// 8.lấy thông tin trong tài khoản google
 	public static GooglePojo getUserInfo(final String accessToken) throws ClientProtocolException, IOException {
 		String link = Constants.GOOGLE_LINK_GET_USER_INFO + accessToken;
 		String response = Request.Get(link).execute().returnContent().asString();
