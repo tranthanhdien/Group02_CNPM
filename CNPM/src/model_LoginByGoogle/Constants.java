@@ -1,5 +1,5 @@
-package model_LoginByGoogle;
-// Tao ung dung API Demo Login Google  
+﻿package model_LoginByGoogle;
+  
 // Class Dùng để lưu client_id, client_secret, redirect_uri của ứng dung Demo Login Google
 public class Constants {
 	public static String GOOGLE_CLIENT_ID = "745032533472-rmlgld6ab5t3u2vrv03vuo6d3m3f6s2e.apps.googleusercontent.com";
