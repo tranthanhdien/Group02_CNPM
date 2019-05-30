@@ -21,16 +21,20 @@ public class LoginFacebookServlet extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
+		// 5. Gửi tham số "code" xác thực
 		String code = request.getParameter("code");
-
+		// kiểm tra lỗi
 		if (code == null || code.isEmpty()) {
 			RequestDispatcher dis = request.getRequestDispatcher("Login.jsp");
 			dis.forward(request, response);
 		} else {
+			// 6.lấy accessToken của Facebook về .
 			String accessToken = RestFB.getToken(code);
+			// 10.lấy thông tin tài khoản Facebook thông qua accesssToken
 			User user = RestFB.getUserInfo(accessToken);
 			request.setAttribute("id", user.getId());
 			request.setAttribute("name", user.getName());
+			// 12.Trả về view kết quả thành công !
 			RequestDispatcher dis = request.getRequestDispatcher("index.jsp");
 			dis.forward(request, response);
 		}
