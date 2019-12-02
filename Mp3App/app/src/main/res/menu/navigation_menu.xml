@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_item_home"></item>
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="@string/menu_item_profile"></item>
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@drawable/ic_message"
+            android:title="@string/menu_item_message"></item>
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_chat"
+            android:title="@string/menu_item_chat"></item>
+
+    </group>
+    <item android:title="@string/menu_downloaded">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_downloaded"
+                android:icon="@drawable/ic_downloaded"
+                android:title="@string/menu_item_downloaded"></item>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/menu_item_communication">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_send"
+                android:title="@string/menu_item_send"></item>
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="@string/menu_item_share"></item>
+            </group>
+        </menu>
+    </item>
+
+</menu>
